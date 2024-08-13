@@ -204,7 +204,7 @@ export default function RootLayout({
                             <div className="col header-menu-column justify-content-center">
                                 <div className="sticky-logo">
                                     <div className="site-logo">
-                                        <a href="index.html"><img src="img/logo-3.png" alt="Logo"/></a>
+                                        <a href="index.html"><img src="img/logo.png" alt="Logo"/></a>
                                     </div>
                                 </div>
                                 <div className="header-menu header-menu-2">
@@ -343,7 +343,7 @@ export default function RootLayout({
                                 <div className="footer-widget footer-about-widget">
                                     <div className="footer-logo">
                                         <div className="site-logo">
-                                            <img src="img/logo-2.png" alt="Logo"/>
+                                            <img src="img/logo.png" alt="Logo"/>
                                         </div>
                                     </div>
                                     <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is

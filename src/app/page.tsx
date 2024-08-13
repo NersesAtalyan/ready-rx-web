@@ -1,95 +1,136 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <>
+        <div className="ltn__category-area section-bg-1-- pt-30 pb-50">
+          <div className="container">
+            <div className="row ltn__category-slider-active-six slick-arrow-1 border-bottom">
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-notes-medical"></i>
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6><a href="shop.html">Best Deals</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-box-tissue"></i>
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6><a href="shop.html">Germs Pads</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-pump-medical"></i>
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6><a href="shop.html">Accessories</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-bong"></i>
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6><a href="shop.html">Medicine Cap</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-tooth"></i>
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6><a href="shop.html">Dental Item</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-microscope"></i>
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6><a href="shop.html">Best Deals</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-syringe"></i>
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6><a href="shop.html">All Products</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-stethoscope"></i>
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6><a href="shop.html">Germs Pads</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-hand-holding-medical"></i>
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6><a href="shop.html">Accessories</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-procedures"></i>
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6><a href="shop.html">Medicine Cap</a></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      </>
   );
 }

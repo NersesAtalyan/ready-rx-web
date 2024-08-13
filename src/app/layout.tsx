@@ -7,6 +7,7 @@ import '../css/font-icons.css';
 import '../css/plugins.css';
 import '../css/responsive.css';
 import '../css/style.css';
+import Script from "next/script";
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -471,6 +472,8 @@ export default function RootLayout({
             </footer>
         </div>
         </body>
+        <Script src="/js/plugins.js" strategy="afterInteractive" />
+        <Script src="/js/main.js" strategy="afterInteractive" />
         </html>
 );
 }
